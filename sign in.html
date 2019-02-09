@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sign in</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+<section>
+    <div class="container div-1">
+        <h2 class="h2">User Login form</h2>
+        <hr/>
+        <div class="row ">
+            <div class="col-md-3"><br>
+                <img src="images/logo_main.png" alt="" class="img-m"><br>
+                <span style="color: blue;">অবিরাম সত্যের পথে পথচলা....</span>
+            </div>
+            <div class="col-md-9">
+                <div class="content">
+                    <img src="images/images%20(1).png" alt="" class="logo-img"><br>
+                    <div class="table">
+                       <table>
+                           <tr>
+                               <td class="">Username:</td>
+                               <td>
+                                   <i class="fas fa-user-tie "></i>
+                                   <input type="text" placeholder="Input user name or email" class="input" id="username">
+                                </td>
+                           </tr>
+
+                           <tr>
+                               <td>Password:</td>
+                               <td>
+                                   <i class="fas fa-lock"></i>
+                                   <input type="password" placeholder="Input password" class="input" id="password">
+                               </td>
+                           </tr>
+
+                           <tr>
+                               <td><input type="checkbox"> Remember password</td>
+                               <td><a href="" class="forgot">Forgot Password</a> </td>
+                           </tr>
+
+                           <tr>
+                               <td></td>
+                               <td><input type="button" value="SUBMIT" class="btn btn-success submit" onclick="sign_in()"></td>
+                           </tr>
+
+                       </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="small-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="images/footer-logo.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+                <h4><a href="">আজকের পত্রিকা</a> </h4>
+                <h4><a href="">আন্তর্জাতিক</a> </h4>
+                <h4><a href="">আন্তর্জাতিক</a> </h4>
+                <h4><a href="">লাইফ স্টাইল</a> </h4>
+                <h4><a href="">লাইফ স্টাইল</a> </h4>
+                <h4><a href="">পরবাস</a> </h4>
+                <h4><a href="">বাতায়ন</a> </h4>
+            </div>
+            <div class="col-md-2">
+                <h4><a href="">রাজনীতি</a> </h4>
+                <h4><a href="">রাজনীতি</a> </h4>
+                <h4><a href="">সারা দেশ</a> </h4>
+                <h4><a href="">আইটি বিশ্ব</a> </h4>
+                <h4><a href="">আইটি বিশ্ব</a> </h4>
+                <h4><a href="">একদিন প্রতিদিন</a> </h4>
+                <h4><a href="">ইসলাম ও জীবন</a> </h4>
+            </div>
+            <div class="col-md-2">
+                <h4><a href="">রাজধানী</a> </h4>
+                <h4><a href="">রাজধানী</a> </h4>
+                <h4><a href="">খেলা</a> </h4>
+                <h4><a href="">চিত্র বিচিত্র</a> </h4>
+                <h4><a href="">চিত্র বিচিত্র</a> </h4>
+                <h4><a href="">সম্পাদকীয়</a> </h4>
+                <h4><a href="">স্বজন সমাবেশ</a> </h4>
+            </div>
+            <div class="col-md-2">
+                <h4><a href="">জাতীয়</a> </h4>
+                <h4><a href="">অর্থনীতি</a> </h4>
+                <h4><a href="">অর্থনীতি</a> </h4>
+                <h4><a href="">শিক্ষাঙ্গন</a> </h4>
+                <h4><a href="">দৃষ্টিপাত</a> </h4>
+                <h4><a href="">দৃষ্টিপাত</a> </h4>
+                <h4><a href="">প্রতিমঞ্চ</a> </h4>
+            </div>
+            <div class="col-md-4">
+                <a href=""><img src="images/google-play.png" alt="" class="pull-right icon"></a>
+                <a href=""><img src="images/app-store.png" alt="" class="pull-right icon"></a>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-md-8">
+                <p>প্রকাশক কর্তৃক ক-২৪৪ প্রগতি সরণি, কুড়িল (বিশ্বরোড), বারিধারা, ঢাকা-১২২৯ থেকে প্রকাশিত এবং যমুনা প্রিন্টিং এন্ড পাবলিশিং লিঃ থেকে মুদ্রিত।<br/>
+                    পিএবিএক্স : ৯৮২৪০৫৪-৬১, রিপোর্টিং : ৯৮২৪০৭৩, বিজ্ঞাপন : ৯৮২৪০৬২, ফ্যাক্স : ৯৮২৪০৬৩, সার্কুলেশন : ৯৮২৪০৭২। ফ্যাক্স : ৯৮২৪০৬৬<br/>
+                    E-mail: jugantor.mail@gmail.com</p>
+            </div>
+            <div class="col-md-4">
+                <a href="https://www.jugantor.com/converter/"><img src="images/converter.png" alt="" class="pull-right icon"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>এই ওয়েবসাইটের কোনো লেখা, ছবি, অডিও, ভিডিও অনুমতি ছাড়া ব্যবহার বেআইনি। @ Rabiul Islam </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br/>
+<script>
+
+    function sign_in() {
+        var user = document.getElementById("username").value;
+        var pass = document.getElementById("password").value;
+
+        if((user == 'Rabiul','rabiul.rabi91@gmail.com')&&(pass == '1234')){
+            location.href="user-form.html"
+        }else {
+            alert("Your User name or Password is not correct")
+        }
+    }
+
+</script>
+<script src="js/jquery-3.3.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
