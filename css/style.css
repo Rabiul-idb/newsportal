@@ -84,6 +84,8 @@ text-align: justify;
     height: 50px;
     background-color: #20c997;
     margin-top: 8px;
+    border:1px solid red;
+	border-radius:7px;
 }
 
 .div{
